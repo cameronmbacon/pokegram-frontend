@@ -15,7 +15,7 @@
     "build-watch": "webpack-dev-server --inline --hot",
     "test-watch": "karma start --auto-watch",
     "test": "karma start --single-run",
-    "heroku-postbuild": "webpack -p --progress"
+    "heroku-postbuild": "webpack --progress"
   },
   "repository": {
     "type": "git",
